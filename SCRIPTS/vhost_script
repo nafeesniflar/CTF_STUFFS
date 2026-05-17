@@ -66,10 +66,9 @@ ffuf \
     -c \
     -w "$WORDLIST" \
     -u "$URL" \
-    -fs "$FS" \
+    -mc 200 \
     -o "$OUTPUT_FILE" \
     -of json
-
 # Check if ffuf succeeded
 if [ $? -eq 0 ]; then
     echo -e "${GREEN}[+] Scan completed successfully!${NC}"
