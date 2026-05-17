@@ -1,12 +1,11 @@
 #!/bin/bash
 
-# =============================================================================
+# ========================================================================
 #  Nafees's VHost Fuzzer v1.0
-#  Custom-built for Nafees Nif | Cybersecurity Student & Pentester
-#  Purpose: Automated vhost enumeration using ffuf with logging & branding
+#  Purpose -- Automated vhost enumeration using ffuf
 # =============================================================================
 
-# Color codes for terminal output
+#terminal_colour 
 RED='\033[0;31m'
 GREEN='\033[0;32m'
 YELLOW='\033[1;33m'
