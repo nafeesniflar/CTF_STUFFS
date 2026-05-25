@@ -27,12 +27,12 @@ show_help() {
     banner
     echo -e "${YELLOW}Usage:${NC} $0 <DOMAIN> <WORDLIST> <URL>"
     echo
-    echo "  DOMAIN   : Base domain for vhost fuzzing (e.g. creative.thm)"
+    echo "  DOMAIN   : Base domain for vhost fuzzing (e.g. example.com)"
     echo "  WORDLIST : Path to subdomain/vhost wordlist"
-    echo "  URL      : Full URL to send requests to (e.g. http://creative.thm)"
+    echo "  URL      : Full URL to send requests to (e.g. http://example.com"
     echo
     echo "Example:"
-    echo "  $0 creative.thm /path/to/wordlist.txt http://creative.thm"
+    echo "  $0 example.com /path/to/wordlist.txt http://example.com"
     echo
     echo "Notes:"
     echo "  - This wrapper matches only HTTP 200 responses (-mc 200)."
